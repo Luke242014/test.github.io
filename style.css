@@ -1,0 +1,48 @@
+@import URL('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Source Sans Pro", "sans-serif";
+}
+
+body{
+  background: #00aeff;
+}
+
+h1{
+  font-size: 60px;
+  color: #ffffff;
+}
+
+p{
+  color: #ffffff;
+}
+
+a{
+  color: #000000;
+}
+
+.login_btn{
+  background-color: #0aaa6d;
+  color: white;
+  width: 100%;
+  margin-top: 5px;
+  cursor: pointer;
+  padding: 3px 12px;
+  font-weight: 600;
+  border: 1px solid; 
+  border-radius: 2px;
+}
+
+.login_btn:hover{
+  opacity: 0.3;
+}
+
+.form .input_field .input:focus{
+  border.color: #ff0000;
+}
