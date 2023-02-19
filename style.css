@@ -40,9 +40,19 @@ a{
 }
 
 .login_btn:hover{
-  opacity: 0.3;
+  opacity: 0.8;
 }
 
 .form .input_field .input:focus{
   border.color: #ff0000;
+}
+
+button{
+  background-color: #0aaa6d;
+  color: white;
+  width: 100%;
+}
+
+button:hover{
+  opacity: 0.8;
 }
